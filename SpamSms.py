@@ -30,12 +30,6 @@ a,m,h,k,b,u,c,p,bn,o = [
 
 import os
 
-os.system('clear')
-os.system('termux-open-url https://youtube.com/channel/UCXk4vbvDl7i6dxWBtNdpx6w')
-os.system('clear')
-os.system('termux-open-url https://cararegistrasi.com/bvC8MF')
-# Di ubah sesuai kalian 
-# Subscribe dulu :)
 os.system("clear")
 banner= """
 \033[37m   _____                      \033[35m    _____
@@ -43,18 +37,18 @@ banner= """
 \033[37m  \__ \/ __ \/ __ `/ __ `__ \ \033[35m   \__ \/ __ `__ \/ ___/
 \033[37m ___/ / /_/ / /_/ / / / / / / \033[35m  ___/ / / / / / (__  )
 \033[37m/____/ .___/\__,_/_/ /_/ /_/  \033[35m /____/_/ /_/ /_/____/
-\033[37m    /_/ \033[32m( \033[37mSpam Sms \033[33mMatahari \033[32m| \033[37mBY \033[33mXenzi-Xni \033[32m) \033[32m(\033[37mV.1\033[32m)
+\033[37m    /_/ \033[32m( \033[37mSpam Sms \033[32m| \033[37mBY \033[33mDEMONzXXi \033[32m) \033[32m(\033[37mV.1\033[32m)
 \033[32m[•]───────────────────────────────────────────[•]
 \033[32m | [+]  Author  : DEMON 		       |
 \033[32m | [+]  Tambahan:\033[90m DEMONZX		       |
-\033[32m | [+]  TEAM    : DARK CYBER H
+\033[32m | [+]  TEAM    : DARK CYBER Hunter
 \033[32m[•]───────────────────────────────────────────[•]"""
 os.system('clear')
 print (banner)
 print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
 no = input('\n\033[37m[\033[33m•\033[37m] \033[33mex \033[31m: \033[32m08xx\n\033[37m[\033[32m+\033[37m] \033[33mPhone\033[31m:\033[32m ')
 if no =='':
-   exit('\033[37m[\033[31m!\033[37m] Janggan Kosong lurs')
+   exit('\033[37m[\033[31m!\033[37m] Jangan Kosong ')
 elif len(no) <= 9:
    exit('\033[37m[\033[31m!\033[37m] Nomor Tidak Valid ')
 else:
