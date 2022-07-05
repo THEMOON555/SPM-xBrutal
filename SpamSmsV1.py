@@ -47,7 +47,7 @@ print (banner)
 print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
 no = input('\n\033[37m[\033[33m•\033[37m] \033[33mex \033[31m: \033[32m08xx\n\033[37m[\033[32m+\033[37m] \033[33mPhone\033[31m:\033[32m ')
 if no =='':
-   exit('\033[37m[\033[31m!\033[37m] Don't be empty ')
+   exit('\033[37m[\033[31m!\033[37m] Dont be empty ')
 elif len(no) <= 9:
    exit('\033[37m[\033[31m!\033[37m] Invalid number ')
 else:
