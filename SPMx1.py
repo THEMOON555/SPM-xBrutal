@@ -32,8 +32,8 @@ import os
 
 os.system("clear")
 banner= """
-\033[32m   _____                      \033[31m    _____
-\033[31m  / ___/____  ____ _____ ___  \033[37m   / ___/____ ___  _____
+\033[31m   _____                      \033[31m    _____
+\033[31m  / ___/____  ____ _____ ___  \033[31m   / ___/____ ___  _____
 \033[31m  \__ \/ __ \/ __ `/ __ `__ \ \033[31m   \__ \/ __ `__ \/ ___/
 \033[37m ___/ / /_/ / /_/ / / / / / / \033[37m  ___/ / / / / / (__  )
 \033[31m/____/ .___/\__,_/_/ /_/ /_/  \033[31m /____/_/ /_/ /_/____/
@@ -45,13 +45,13 @@ banner= """
 os.system('clear')
 print (banner)
 print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
-no = input('\n\033[37m[\033[33m•\033[37m] \033[33mex \033[31m: \033[32m08xx\n\033[37m[\033[32m+\033[37m] \033[33mPhone\033[31m:\033[32m ')
+no = input('\n\033[37m[\033[31m•\033[37m] \033[31mex \033[37m: \033[31m08xx\n\033[37m[\033[32m+\033[37m] \033[31mPhone\033[37m:\033[32m ')
 if no =='':
    exit('\033[37m[\033[31m!\033[37m] Dont be empty ')
 elif len(no) <= 9:
    exit('\033[37m[\033[31m!\033[37m] Invalid number ')
 else:
-   jml = int(input('\n\033[37m[\033[32m+\033[37m] \033[33mAmount\033[31m:\033[32m '))
+   jml = int(input('\n\033[37m[\033[32m+\033[37m] \033[31mAmount\033[37m:\033[32m '))
 
 # Janggan di ubah
 heder = {'Host': 'www.matahari.com',
@@ -83,13 +83,13 @@ data = {
 		}
 	}
 
-print("\n\033[31m[\033[31m!\033[31m] \033[31mMessage ..\n")
+print("\n\033[31m[\033[31m!\033[31m] \033[37mMessage ..\n")
 for i in range(jml):
       # Janggan di ubah
       sec = requests.post('https://www.matahari.com/rest/V1/thorCustomers', headers=heder, json=data)
       if 'Success' in sec.text:
-           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[33mMessage \033[31m→ \033[32mSpam Sms Success')
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[37mMessage \033[31m→ \033[32mSpam Sms Success')
       else:
-           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[33mMessage \033[31m→ \033[31mSpam Sms Failed')
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[37mMessage \033[31m→ \033[31mSpam Sms Failed')
       time.sleep(1.5)
-print ('\n\033[37m[\033[32m√\033[37m] \033[37mSpam Complete \033[33m:)')
+print ('\n\033[37m[\033[35m✓\033[37m] \033[33mSpam Complete \033[31m>.<')
