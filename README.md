@@ -1,5 +1,4 @@
-# SpamV1
-Cara Install
+# Cara Install
 
 $git clone https://github.com/THEMOON555/SpXv1
 
