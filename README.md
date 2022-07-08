@@ -1,7 +1,10 @@
 # SpamV1
 Cara Install
+
 $git clone https://github.com/THEMOON555/SpXv1
+
 $cd SpXv1
+
 $python SPM-X1
 
 
