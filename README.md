@@ -1,10 +1,10 @@
 # Cara Install
 
-$git clone https://github.com/THEMOON555/SpXv1
+$git clone https://github.com/THEMOON555/Spam-xBrutal
 
 $cd SpXv1
 
-$python SPM-x1
+$python SPM-x1.py
 
 # Fungsi
 Buat Spam Temen Laknat
